@@ -65,7 +65,7 @@ Algoritma ini digunakan untuk meminimalkan bentrok jadwal dan menghasilkan solus
 ![Halaman Login](docs/images/login.png)
 
 ### ⚙️ Generate Jadwal
-![Generate Menu](docs/images/generate-menu.png)
+![Generate Menu](docs/images/genaratemenu.png)
 ![Proses Generate](docs/images/generate.png)
 
 ### 📅 Jadwal Pelajaran
