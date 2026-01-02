@@ -62,14 +62,15 @@ Algoritma ini digunakan untuk meminimalkan bentrok jadwal dan menghasilkan solus
 ## 📷 Tampilan Aplikasi
 
 ### 🔐 Halaman Login
-![Login](docs/images/login.png)
+![Halaman Login](docs/images/login.png)
 
-### 📊 Generate Menu
-![GenerateMenu](docs/images/ganeretemenu.png)
-![Generate](docs/images/generete.png)
+### ⚙️ Generate Jadwal
+![Generate Menu](docs/images/generate-menu.png)
+![Proses Generate](docs/images/generate.png)
 
 ### 📅 Jadwal Pelajaran
-![Jadwal](docs/images/jadwal.png)
+![Jadwal Pelajaran](docs/images/jadwal.png)
+
 
 ---
 
