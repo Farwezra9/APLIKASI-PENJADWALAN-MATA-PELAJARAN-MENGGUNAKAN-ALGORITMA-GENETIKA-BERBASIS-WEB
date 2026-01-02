@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.my-login-page {
+    background-image: url('/img/login_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least full viewport height */
+    padding-top: 50px; /* Add padding at the top to create space */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.my-login-page .brand {
+    width: 310px;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px auto; /* Add margin for spacing */
+    position: relative;
+    z-index: 1;
+}
+
+.my-login-page .brand img {
+    width: 100%;
+}
+
+.my-login-page .card-wrapper {
+    width: 400px;
+    max-width: 100%; /* Ensure it fits within smaller screens */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 30px; /* Adjust the margin top */
+}
+
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+
+.my-login-page .card.fat {
+    padding: 15px;
+}
+
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+    width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+    margin-top: 50px;
+    padding: 12px 10px;
+    background-color: #435EBE;
+}
+
+.my-login-page .footer {
+    margin: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 425px) {
+    .my-login-page {
+        padding-top: 20px; /* Adjust padding top for smaller screens */
+    }
+
+    .my-login-page .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px; /* Adjust margin top for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .my-login-page .brand {
+        margin: 10px auto; /* Adjust margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .my-login-page {
+        padding-top: 10px; /* Adjust padding top for very small screens */
+    }
+
+    .my-login-page .card-wrapper {
+        margin-top: 15px; /* Adjust margin top for very small screens */
+    }
+
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+
+    .my-login-page .btn.btn-block {
+        margin-top: 30px; /* Adjust margin top for very small screens */
+    }
+}
